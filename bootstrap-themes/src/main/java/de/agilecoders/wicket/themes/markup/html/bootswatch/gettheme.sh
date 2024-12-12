@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 downloadTheme() {
     theme=$1
     version=$2
